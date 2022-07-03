@@ -25,7 +25,7 @@ export const StoreItem: FC<StoreItemProps> = ({id, imgUrl, name, price}) => {
         <Col>
             <Card className="h-100">
                 <Card.Img
-                    src={imgUrl}
+                    src={`/react-ts-shopping-cart${imgUrl}`}
                     variant="top"
                     height="200px"
                     style={{objectFit: 'cover'}}

@@ -21,7 +21,7 @@ export const CartItem = ({id, quantity}: CartItemProps) => {
             className="d-flex align-items-center flex-wrap"
         >
             <img
-                src={item.imgUrl}
+                src={`/react-ts-shopping-cart${item.imgUrl}`}
                 height={75}
                 width={125}
                 style={{objectFit: 'cover'}}
